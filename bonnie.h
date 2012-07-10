@@ -14,7 +14,7 @@
 // data includes index to which directory (6 bytes) and terminating '\0' for
 // the name and pointer to file name
 #define MaxDataPerFile (MaxNameLen + 6 + 1 + 4)
-#define MinTime (0.5)
+#define MinTime (0.01)
 #define Seeks (8192)
 #define UpdateSeek (10)
 #define SeekProcCount (3)
